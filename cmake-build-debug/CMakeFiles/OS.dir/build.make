@@ -57,27 +57,27 @@ include CMakeFiles/OS.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/OS.dir/flags.make
 
-CMakeFiles/OS.dir/lab2.1.c.o: CMakeFiles/OS.dir/flags.make
-CMakeFiles/OS.dir/lab2.1.c.o: ../lab2.1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jose/OS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/OS.dir/lab2.1.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS.dir/lab2.1.c.o   -c /home/jose/OS/lab2.1.c
+CMakeFiles/OS.dir/matrix_multiplication_pthreads.c.o: CMakeFiles/OS.dir/flags.make
+CMakeFiles/OS.dir/matrix_multiplication_pthreads.c.o: ../matrix_multiplication_pthreads.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jose/OS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/OS.dir/matrix_multiplication_pthreads.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS.dir/matrix_multiplication_pthreads.c.o   -c /home/jose/OS/matrix_multiplication_pthreads.c
 
-CMakeFiles/OS.dir/lab2.1.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS.dir/lab2.1.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jose/OS/lab2.1.c > CMakeFiles/OS.dir/lab2.1.c.i
+CMakeFiles/OS.dir/matrix_multiplication_pthreads.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS.dir/matrix_multiplication_pthreads.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jose/OS/matrix_multiplication_pthreads.c > CMakeFiles/OS.dir/matrix_multiplication_pthreads.c.i
 
-CMakeFiles/OS.dir/lab2.1.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS.dir/lab2.1.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jose/OS/lab2.1.c -o CMakeFiles/OS.dir/lab2.1.c.s
+CMakeFiles/OS.dir/matrix_multiplication_pthreads.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS.dir/matrix_multiplication_pthreads.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jose/OS/matrix_multiplication_pthreads.c -o CMakeFiles/OS.dir/matrix_multiplication_pthreads.c.s
 
 # Object files for target OS
 OS_OBJECTS = \
-"CMakeFiles/OS.dir/lab2.1.c.o"
+"CMakeFiles/OS.dir/matrix_multiplication_pthreads.c.o"
 
 # External object files for target OS
 OS_EXTERNAL_OBJECTS =
 
-OS: CMakeFiles/OS.dir/lab2.1.c.o
+OS: CMakeFiles/OS.dir/matrix_multiplication_pthreads.c.o
 OS: CMakeFiles/OS.dir/build.make
 OS: CMakeFiles/OS.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jose/OS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable OS"

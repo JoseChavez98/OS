@@ -123,32 +123,32 @@ OS/fast:
 	$(MAKE) -f CMakeFiles/OS.dir/build.make CMakeFiles/OS.dir/build
 .PHONY : OS/fast
 
-lab2.1.o: lab2.1.c.o
+matrix_multiplication_pthreads.o: matrix_multiplication_pthreads.c.o
 
-.PHONY : lab2.1.o
+.PHONY : matrix_multiplication_pthreads.o
 
 # target to build an object file
-lab2.1.c.o:
-	$(MAKE) -f CMakeFiles/OS.dir/build.make CMakeFiles/OS.dir/lab2.1.c.o
-.PHONY : lab2.1.c.o
+matrix_multiplication_pthreads.c.o:
+	$(MAKE) -f CMakeFiles/OS.dir/build.make CMakeFiles/OS.dir/matrix_multiplication_pthreads.c.o
+.PHONY : matrix_multiplication_pthreads.c.o
 
-lab2.1.i: lab2.1.c.i
+matrix_multiplication_pthreads.i: matrix_multiplication_pthreads.c.i
 
-.PHONY : lab2.1.i
+.PHONY : matrix_multiplication_pthreads.i
 
 # target to preprocess a source file
-lab2.1.c.i:
-	$(MAKE) -f CMakeFiles/OS.dir/build.make CMakeFiles/OS.dir/lab2.1.c.i
-.PHONY : lab2.1.c.i
+matrix_multiplication_pthreads.c.i:
+	$(MAKE) -f CMakeFiles/OS.dir/build.make CMakeFiles/OS.dir/matrix_multiplication_pthreads.c.i
+.PHONY : matrix_multiplication_pthreads.c.i
 
-lab2.1.s: lab2.1.c.s
+matrix_multiplication_pthreads.s: matrix_multiplication_pthreads.c.s
 
-.PHONY : lab2.1.s
+.PHONY : matrix_multiplication_pthreads.s
 
 # target to generate assembly for a file
-lab2.1.c.s:
-	$(MAKE) -f CMakeFiles/OS.dir/build.make CMakeFiles/OS.dir/lab2.1.c.s
-.PHONY : lab2.1.c.s
+matrix_multiplication_pthreads.c.s:
+	$(MAKE) -f CMakeFiles/OS.dir/build.make CMakeFiles/OS.dir/matrix_multiplication_pthreads.c.s
+.PHONY : matrix_multiplication_pthreads.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... OS"
 	@echo "... edit_cache"
-	@echo "... lab2.1.o"
-	@echo "... lab2.1.i"
-	@echo "... lab2.1.s"
+	@echo "... matrix_multiplication_pthreads.o"
+	@echo "... matrix_multiplication_pthreads.i"
+	@echo "... matrix_multiplication_pthreads.s"
 .PHONY : help
 
 

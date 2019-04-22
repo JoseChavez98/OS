@@ -6,17 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/jose/OS/lab2.1.c
+/home/jose/OS/matrix_multiplication_pthreads.c
 stdio.h
+-
+stdlib.h
+-
+time.h
 -
 sys/time.h
 -
-unistd.h
--
-sys/types.h
--
-string.h
--
-sys/wait.h
+pthread.h
 -
 

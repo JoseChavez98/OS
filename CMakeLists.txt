@@ -3,7 +3,6 @@ project(OS)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(OS
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -pthread")
 
-    lab2.1.c
-   )
+add_executable(OS matrix_multiplication_pthreads.c)

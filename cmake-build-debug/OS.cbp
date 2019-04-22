@@ -84,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/jose/OS/lab2.1.c">
+		<Unit filename="/home/jose/OS/matrix_multiplication_pthreads.c">
 			<Option target="OS"/>
 		</Unit>
 		<Unit filename="/home/jose/OS/CMakeLists.txt">
