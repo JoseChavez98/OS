@@ -4,8 +4,7 @@
 #include <sys/time.h>
 #include <pthread.h>
 
-#define NUM_HILOS 4
-
+#define NUM_HILOS 8
 
 int step;
 
@@ -191,7 +190,7 @@ int main(){
     //printMatrix(cS.mat,row1,col2);
 
     printf("Multiplicacion matricial secuencial: %f Secs\n",(double)Time/1000000.0);
-    printf("");
+
 
     struct Matrix mat_vector[3];
 

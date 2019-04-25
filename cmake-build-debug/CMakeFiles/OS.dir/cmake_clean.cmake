@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/OS.dir/matrix_multiplication_pthreads.c.o"
+  "CMakeFiles/OS.dir/magos.c.o"
   "OS.pdb"
   "OS"
 )

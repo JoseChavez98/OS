@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/jose/OS/matrix_multiplication_pthreads.c" "/home/jose/OS/cmake-build-debug/CMakeFiles/OS.dir/matrix_multiplication_pthreads.c.o"
+  "/home/jose/OS/magos.c" "/home/jose/OS/cmake-build-debug/CMakeFiles/OS.dir/magos.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

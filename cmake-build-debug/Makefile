@@ -123,32 +123,32 @@ OS/fast:
 	$(MAKE) -f CMakeFiles/OS.dir/build.make CMakeFiles/OS.dir/build
 .PHONY : OS/fast
 
-matrix_multiplication_pthreads.o: matrix_multiplication_pthreads.c.o
+magos.o: magos.c.o
 
-.PHONY : matrix_multiplication_pthreads.o
+.PHONY : magos.o
 
 # target to build an object file
-matrix_multiplication_pthreads.c.o:
-	$(MAKE) -f CMakeFiles/OS.dir/build.make CMakeFiles/OS.dir/matrix_multiplication_pthreads.c.o
-.PHONY : matrix_multiplication_pthreads.c.o
+magos.c.o:
+	$(MAKE) -f CMakeFiles/OS.dir/build.make CMakeFiles/OS.dir/magos.c.o
+.PHONY : magos.c.o
 
-matrix_multiplication_pthreads.i: matrix_multiplication_pthreads.c.i
+magos.i: magos.c.i
 
-.PHONY : matrix_multiplication_pthreads.i
+.PHONY : magos.i
 
 # target to preprocess a source file
-matrix_multiplication_pthreads.c.i:
-	$(MAKE) -f CMakeFiles/OS.dir/build.make CMakeFiles/OS.dir/matrix_multiplication_pthreads.c.i
-.PHONY : matrix_multiplication_pthreads.c.i
+magos.c.i:
+	$(MAKE) -f CMakeFiles/OS.dir/build.make CMakeFiles/OS.dir/magos.c.i
+.PHONY : magos.c.i
 
-matrix_multiplication_pthreads.s: matrix_multiplication_pthreads.c.s
+magos.s: magos.c.s
 
-.PHONY : matrix_multiplication_pthreads.s
+.PHONY : magos.s
 
 # target to generate assembly for a file
-matrix_multiplication_pthreads.c.s:
-	$(MAKE) -f CMakeFiles/OS.dir/build.make CMakeFiles/OS.dir/matrix_multiplication_pthreads.c.s
-.PHONY : matrix_multiplication_pthreads.c.s
+magos.c.s:
+	$(MAKE) -f CMakeFiles/OS.dir/build.make CMakeFiles/OS.dir/magos.c.s
+.PHONY : magos.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... OS"
 	@echo "... edit_cache"
-	@echo "... matrix_multiplication_pthreads.o"
-	@echo "... matrix_multiplication_pthreads.i"
-	@echo "... matrix_multiplication_pthreads.s"
+	@echo "... magos.o"
+	@echo "... magos.i"
+	@echo "... magos.s"
 .PHONY : help
 
 
