@@ -1,0 +1,14 @@
+\section{Conclusion}
+We saw how the sequential NFA execution bottleneck on the Micron Automata Procesor (AP). We identify two main
+challenges to applying enumerative NFA parallelization techniques
+on the AP: (1) high state-tracking overhead for input composition (2)
+huge computational complexity for enumerating parallel paths on
+large NFAs. Using the AP flow abstraction and properties of FSMs
+like small input symbol transition range, connected components and
+common parents we amortize the overhead of state-tracking and
+realize a time-mutliplexed execution of enumerated paths. To tackle
+the computational complexity, we leverage properties of the FSMs
+like path convergence to dynamically reduce the number of executed
+enumerated flows.\\
+We can make a conclusion that most of the times , special-oriented hardware outperforms general-oriented if it is well leveraged. Also, we saw that special-oriented hardware with a special management outperforms the same common special-oriented hardware.
+This conclusion may look trivial , but it's just a reminder of how \textit{Subranamiyan} \cite{} implemented the FSM parallelization in the AP with outstanding results.

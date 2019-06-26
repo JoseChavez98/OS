@@ -65,3 +65,27 @@ the number of enumeration paths and hence the number of flows
 needed.
 
 \subsection{Composition of Input Partitions}
+Once the input segments finish, the final output results can be obtained by combining the results of true paths of each segment. The
+host CPU reads the final state vector from the AP and then constructs a Boolean array indicating which flow has results for true
+enumeration paths. This Boolean array is checked when reading the
+results out of the output buffer. Each output buffer entry has few
+bits indicating the flow identifier. Only results for the output buffer
+entries which match with true flows are reported.
+
+\subsection{Put it Together}
+This section describes our overall framework for parallelizing NFAs
+on the AP. Figure 7 brings together all the concepts discussed in this
+section to illustrate our overall framework. The parallelization framework consists of pre-processing steps and dynamic runtime steps.
+First, the range is computed for all input symbols and a frequently
+occurring symbol is chosen based on profiling (Section 3.1). This
+is followed by the merging the states in the range table into flows
+based on connected components and common parents.
+This step generate the contents for the
+State Vector Cache (SVC). The state vector cache is then loaded
+onto the AP chips. This pre-processing can be augmented to the
+compilation and configuration process for the AP. Following this,
+the input is partitioned at boundaries of the chosen range symbol.
+Each input segment starts getting processed in parallel on AP halfcores. Deactivation and convergence checks occur dynamically to
+invalidate redundant or unproductive flows (Sections 3.3.4 and 3.3.3).
+A segment can also receive a flow invalidation vector from the previous segment during its runtime. Once an input segment finishes, the
+composition of output reports happens in the CPU 
