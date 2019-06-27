@@ -1,5 +1,5 @@
 \section{\textbf{Parallel Automata Processor}}
-In this section we discuss the proposed framework and architecture \cite{} needed for effective parallelization of NFAs on the Automata Processor(AP).
+In this section we discuss the proposed framework and architecture \cite{1} needed for effective parallelization of NFAs on the Automata Processor(AP).
 
 \subsection{Range Guided INput Partitioning}
 Enumerating from all states of an FSM will lead to exponential
@@ -9,7 +9,7 @@ states, considering transitions from all states in the FSM that have
 a transition defined for that symbol. During actual execution, the
 range of the last input symbol in a particular segment determines
 accurately the subset of start states for the next segment. Any states
-outside this range are impossible start states. The proposed parallelization framework \cite{} partitions the input such that input segments
+outside this range are impossible start states. The proposed parallelization framework \cite{1} partitions the input such that input segments
 end at frequently occurring symbols with small ranges to take advantage of minimum range symbols. The symbol chosen for an FSM
 is obtained by offline profiling. Frequently occurring symbols are
 chosen to ensure that the size of input segments are roughly equal.
@@ -35,14 +35,14 @@ propagating the start state via the routing matrix. Routing matrix
 currently just routes 1 bit per state element pair (which encodes
 transition between two state elements) and is already known to be a
 bottleneck in the system, both in determining the cycle time, and area
-complexity (occupies $≈30\%$ of the chip) \cite{}. Augmenting the routing
+complexity (occupies $≈30\%$ of the chip) \cite{1}. Augmenting the routing
 matrix with state information leads to exponential space complexity.
 Which is something that ,most of the authors we are reviewing, are not looking for.\\
-\cite{} solution is to leverage  AP's flows to solve the above problem of tracking the start states of enumeration flows.\\
+\cite{1} solution is to leverage  AP's flows to solve the above problem of tracking the start states of enumeration flows.\\
 The state vector allows AP
 to context switch between two independent executions much like the
 register save/restore that allows tasks to context switch on traditional
-CPU architectures [3, 14]. The output match events also encapsulate
+CPU architectures \cite{12}. The output match events also encapsulate
 a flow identifier.
 In our architecture each enumeration path is mapped to an independent flow and time division multiplexed on the same half-core.
 By association to a flow identifier, we can easily track the enumeration paths that belong to each flow. The host CPU keeps a flow table
@@ -74,7 +74,7 @@ entries which match with true flows are reported.
 
 \subsection{Put it Together}
 This section describes our overall framework for parallelizing NFAs
-on the AP. Figure 7 brings together all the concepts discussed in this
+on the AP. Figure 4 [1] brings together all the concepts discussed in this
 section to illustrate our overall framework. The parallelization framework consists of pre-processing steps and dynamic runtime steps.
 First, the range is computed for all input symbols and a frequently
 occurring symbol is chosen based on profiling (Section 3.1). This
@@ -86,6 +86,11 @@ onto the AP chips. This pre-processing can be augmented to the
 compilation and configuration process for the AP. Following this,
 the input is partitioned at boundaries of the chosen range symbol.
 Each input segment starts getting processed in parallel on AP halfcores. Deactivation and convergence checks occur dynamically to
-invalidate redundant or unproductive flows (Sections 3.3.4 and 3.3.3).
+invalidate redundant or unproductive flows .
 A segment can also receive a flow invalidation vector from the previous segment during its runtime. Once an input segment finishes, the
 composition of output reports happens in the CPU 
+\begin{figure}[!h]
+    \includegraphics[width=\linewidth]{fx.png}
+    \centering
+    \caption{Overall framework.}
+\end{figure}

@@ -1,15 +1,13 @@
 \section{\textbf{Results}}
 We analyze the speedupss obtained by the proposed Parallel Automata Processor Architecture (PAP).
 \subsection{Overall Speedup}
-Figure 4 \cite{} shows the speedups obtained by our proposed Parallel
+Figure 5 shows the speedups obtained by the propose we are analyzing, Parallel
 Automata Processor Architecture (PAP), when compared to the
 baseline AP architecture. We present speedups for both 1 AP rank
 (8 D480 devices) and 4 AP ranks (32 D480 devices in the current
 AP generation) and 1 MB and 10 MB input streams. We also exploit
 the parallelism offered by each of the half-cores in a D480 device
-when our FSMs can fit in a single half-core. Table 1 details the
-AP footprint and number of input segments created for each of our
-benchmark FSMs.
+when our FSMs can fit in a single half-core. 
 \begin{figure}[t]
     \includegraphics[width=\textwidth]{f4.png}
     \centering
@@ -29,7 +27,7 @@ in the CPU.
 \subsection{Overheads}
 
 \subsubsection{Flow Switching}
-It can be seen from Figure 5 that the overheads of context switching between flows are
+It can be seen from Figure 6  that the overheads of context switching between flows are
 less than 2\% for most benchmarks. As discussed before, since the
 number of active flows greatly reduces as input symbols are processed, the corresponding convergence and deactivation checking
 overheads also reduce.
@@ -40,7 +38,7 @@ overheads also reduce.
 \end{figure}
 
 \subsubsection{False Path Decoding} 
-Figure 6 illustrates the overheads of decoding false paths at the host CPU after an input segment finishes
+Figure 7 illustrates the overheads of decoding false paths at the host CPU after an input segment finishes
 and sending a flow invalidation vector (FIV) to the next segment.
 On an average most benchmarks see around 2000 symbol cycles
 overhead. Fortunately, this cost is largely amortized because of two

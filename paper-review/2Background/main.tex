@@ -56,8 +56,8 @@ accomplished by a proprietary interconnect (routing matrix) which
 encodes the transition function. Reconfiguring this interconnect
 requires a costly recompilation step. Only the states which matched
 with the current input symbol and are active, undergo state transition.\\
-We see how \cite enfasizes how difficult the FMS parallelizing is. Because of the dependencies between every consecutive state transitions.\\
-\cite describes the way of parallelization. To parallelize FSM traversal is by partitioning the input string into segments, and processing these segments concurrently. This is feasible because FSM computation can be expressed as a composition of transition functions [15]. Parallelization is possible because transition function composition is associative. Figure 3 shows an example
+We see how \cite{1} enfasizes how difficult the FMS parallelizing is. Because of the dependencies between every consecutive state transitions.\\
+\cite{1} describes the way of parallelization. To parallelize FSM traversal is by partitioning the input string into segments, and processing these segments concurrently. This is feasible because FSM computation can be expressed as a composition of transition functions . Parallelization is possible because transition function composition is associative. Figure 3 shows an example
 of parallelizing the FSM with two input segments ($I_1$ and $I_2$ ) each
 with five symbols. The FSM shown detects the first word in every
 line. The transition table is shown on right. Both these segments can
@@ -67,10 +67,10 @@ However, the starting states for each input segment are unknown
 except the first segment (which starts from initial start states). The
 starting states for a segment are essentially the ending states of the previous segment. These dependencies prevent concurrent execution
 among threads.This problem can be solved by leveraging classic
-parallel prefix-sum [22]. The basic idea is to execute the second
+parallel prefix-sum. The basic idea is to execute the second
 segment for every state of the FSM. This method is referred to
 as an enumerative computation as it enumerates all possible start
-states [25].
+states \cite{2}.
 In Figure 3 the start state of the first segment is known ($S_0$)
 which is the start state of the FSM. However, the start states of input
 segment $I_2$ are unknown. Figure 3 shows an example enumeration

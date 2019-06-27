@@ -136,9 +136,11 @@ INPUT /home/jose/OS/paper-review/images/f3.png
 INPUT /home/jose/OS/paper-review/images/f3.png
 INPUT /home/jose/OS/paper-review/3ParallelAP/main.tex
 INPUT /home/jose/OS/paper-review/3ParallelAP/main.tex
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
+INPUT /home/jose/OS/paper-review/images/fx.png
+INPUT /home/jose/OS/paper-review/images/fx.png
+INPUT /home/jose/OS/paper-review/images/fx.png
 INPUT /home/jose/OS/paper-review/4Results/main.tex
 INPUT /home/jose/OS/paper-review/4Results/main.tex
 INPUT /home/jose/OS/paper-review/images/f4.png
@@ -152,6 +154,10 @@ INPUT /home/jose/OS/paper-review/images/f6.png
 INPUT /home/jose/OS/paper-review/images/f6.png
 INPUT /home/jose/OS/paper-review/5Conclusion/main.tex
 INPUT /home/jose/OS/paper-review/5Conclusion/main.tex
+INPUT /home/jose/OS/paper-review/6Bib/main.tex
+INPUT /home/jose/OS/paper-review/6Bib/main.tex
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT /home/jose/OS/paper-review/main.aux
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
