@@ -1,0 +1,8 @@
+\beamer@sectionintoc {1}{Main Concepts}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Finite State Machines (FSM)}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{The Micron Automata Processor (AP)}{5}{0}{1}
+\beamer@sectionintoc {2}{Problems}{7}{0}{2}
+\beamer@sectionintoc {3}{Solution}{8}{0}{3}
+\beamer@subsectionintoc {3}{1}{Theorical Solution}{8}{0}{3}
+\beamer@subsectionintoc {3}{2}{Parellel FSM}{9}{0}{3}
+\beamer@sectionintoc {4}{Overall Speedup}{10}{0}{4}
