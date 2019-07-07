@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.5.30)  26 JUN 2019 19:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.5.30)  26 JUN 2019 19:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -211,27 +211,19 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 8--10
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no — in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no — in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ™ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no — in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no — in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ™ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 87.
+(Font)              <7> on input line 41.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 87.
+(Font)              <5> on input line 41.
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -241,7 +233,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
  </home/jose/OS/paper-review/images/fsm.png>]) (/home/jose/OS/paper-review/2Background/main.tex
 Missing character: There is no Î in font ptmr7t!
 Missing character: There is no ± in font ptmr7t!
-<images/apoverview.png, id=12, 1110.1475pt x 905.3825pt>
+<images/apoverview.png, id=13, 1110.1475pt x 905.3825pt>
 File: images/apoverview.png Graphic file (type png)
 <use images/apoverview.png>
 Package pdftex.def Info: images/apoverview.png  used on input line 25.
@@ -259,7 +251,7 @@ Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no — in font ptmr7t!
-<images/f3.png, id=13, 1150.2975pt x 819.06pt>
+<images/f3.png, id=14, 1150.2975pt x 819.06pt>
 File: images/f3.png Graphic file (type png)
 <use images/f3.png>
 Package pdftex.def Info: images/f3.png  used on input line 86.
@@ -349,15 +341,15 @@ Missing character: There is no ™ in font ptmr7t!
 
 ] (/home/jose/OS/paper-review/main.aux) ) 
 Here is how much of TeX's memory you used:
- 2425 strings out of 492982
- 40287 string characters out of 6134896
- 111182 words of memory out of 5000000
- 5952 multiletter control sequences out of 15000+600000
+ 2421 strings out of 492982
+ 40271 string characters out of 6134896
+ 111166 words of memory out of 5000000
+ 5948 multiletter control sequences out of 15000+600000
  40239 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,6n,25p,618b,246s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /home/jose/OS/paper-review/main.pdf (6 pages, 833531 bytes).
+Output written on /home/jose/OS/paper-review/main.pdf (6 pages, 833798 bytes).
 PDF statistics:
  79 PDF objects out of 1000 (max. 8388607)
  46 compressed objects within 1 object stream
